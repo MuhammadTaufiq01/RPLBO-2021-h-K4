@@ -16,7 +16,6 @@
         <a href="/profil">Profil</a>
         <a href="/berita">Berita</a>
         <a href="/ppdp">PPDB 2022</a>
-        <a href="/informasi-pendaftaran">Informasi Pendaftaran</a>
         
         <div class="copyright">
             <p>Copyright &copy; 2021</p>

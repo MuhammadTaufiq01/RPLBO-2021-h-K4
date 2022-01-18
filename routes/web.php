@@ -39,14 +39,16 @@ Route::middleware(['auth:pengguna',])->group(function () {
 });
 
 //daftar
-Route::post('/proses-pendaftaran', [PenggunaController::class, 'create'])->middleware('guest:pengguna');
+Route::post('/proses-pendaftaran', [PenggunaController::class, 'create']);
 //login
 Route::get('/login', [LoginControlller::class, 'index']);
 Route::post('/login', [LoginControlller::class, 'authenticate']);
 Route::post('/logout', [LoginControlller::class, 'logout']);
 
 // siswa
-Route::get('/dashboard', [BeritaController::class, 'index']);
+Route::get('/dashboard', function () {
+  return view('login.dashboard');
+});
 
 
 Route::get('', [BeritaController::class, 'show']);

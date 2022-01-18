@@ -5,7 +5,7 @@
     <title>Admin | Data Peserta</title>
 </head>
 
-<body
+<body style="overflow-x:scroll">
     
     <header>
         <h3>Data Calon Peserta Pesantren Al-Azhar</h3>
@@ -17,12 +17,12 @@
         </div>
     @endif
     <nav>
-        <a href="/daftar" target="blank">[+] Tambah Baru</a>
+        <a href="/daftar" target="_blank">[+] Tambah Baru</a>
     </nav>
 
     <br>
 
-    <table class="table">
+    <table class="table" style="overflow-x:scroll">
         <thead>
           <tr>
             <th scope="col">#</th>

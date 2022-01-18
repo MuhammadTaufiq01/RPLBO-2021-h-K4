@@ -32,7 +32,7 @@
         <button type="submit" class="btn btn-primary">Login</button>
 
 
-      <h3>Belum Punya Akun? <a href="/daftar" target="_blank">Daftar</a></h3>
+      <h5>Belum Punya Akun? <a href="/daftar" target="_blank">Daftar</a></h5>
     </form>
 </fieldset>
 

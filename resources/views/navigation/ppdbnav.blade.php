@@ -12,7 +12,7 @@
 
         <ul>
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     Welcome Back {{ auth()->guard('pengguna')->user()->nama }}
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -26,9 +26,11 @@
                   </form>
                 </ul>
               </div>
-            <li><a href="/informasi-pendaftaran">Informasi Pendaftaran</a></li>
-            <li><a href="/berita">Upload Bukti Pendaftaran</a></li>
+              <li><a href="/bukti">Upload Bukti Pembayaran</a></li>
+            <li><a href="/cekstatus">Status Pembayaran</a></li>
             <li><a href="/ujian">Ujian</a></li>
+            
+            
         </ul>
 
         <div class="menu-toggle">
