@@ -49,6 +49,15 @@ Route::post('/logout', [LoginControlller::class, 'logout']);
 Route::get('/dashboard', function () {
   return view('login.dashboard');
 });
+Route::get('/bukti', function () {
+  return view('login.bukti');
+});
+Route::get('/cekstatus', function () {
+  return view('login.status');
+});
+Route::get('/ujian', function () {
+  return view('login.ujian');
+});
 
 
 Route::get('', [BeritaController::class, 'show']);

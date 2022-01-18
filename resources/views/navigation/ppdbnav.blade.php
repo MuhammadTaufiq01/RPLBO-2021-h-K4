@@ -26,6 +26,7 @@
                   </form>
                 </ul>
               </div>
+              <li><a href="/dashboard">Dashboard</a></li>
               <li><a href="/bukti">Upload Bukti Pembayaran</a></li>
             <li><a href="/cekstatus">Status Pembayaran</a></li>
             <li><a href="/ujian">Ujian</a></li>

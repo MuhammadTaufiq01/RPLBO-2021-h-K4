@@ -65,12 +65,12 @@
               </div>
             <div class="mb-3">
                 <label for="agama" class="form-label">Agama: </label>
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" name="agama" id="agama" aria-label="Default select example">
                     <option selected value="agama">-</option>
-                  <option value="Islam">Islam</option>
-                  <option value="Kristen">Kristen</option>
-                  <option value="Hindu">Hindu</option>
-                  <option value="Budha">Budha</option>
+                  <option name="agama" id="agama" value="Islam">Islam</option>
+                  <option name="agama" id="agama" value="Kristen">Kristen</option>
+                  <option name="agama" id="agama" value="Hindu">Hindu</option>
+                  <option name="agama" id="agama" value="Budha">Budha</option>
                 </select>
               </div>
             <div class="mb-3">
